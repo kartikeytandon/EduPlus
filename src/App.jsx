@@ -1,11 +1,18 @@
 import React from 'react'
+import { Route, Routes } from 'react-router-dom'
+import Landing from './pages/Landing/Landing'
+import StudentLogin from './pages/StudentLogin/StudentLogin'
+import FacultyLogin from './pages/FacultyLogin/FacultyLogin'
+import AdminLogin from './pages/AdminLogin/AdminLogin'
 
 const App = () => {
   return (
-    <div className='my-16'>
-      <h1 className='text-5xl text-center'>Edu+</h1>
-      <h1 className='text-xl text-center my-2'>A New generation Product for for the Smarter World</h1>
-    </div>
+    <Routes>
+      <Route path='/' element={<Landing />} />
+      <Route path='/studentLogin' element={<StudentLogin />} />
+      <Route path='/facultyLogin' element={<FacultyLogin />} />
+      <Route path='/adminLogin' element={<AdminLogin />} />
+    </Routes>
   )
 }
 

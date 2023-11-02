@@ -1,0 +1,15 @@
+#landingSection {
+    background-color: #015C5C;
+    height: 100vh;
+}
+#loginBox {
+    background-color: #D2D2D2;
+    mix-blend-mode: hard-light;
+    font-family: 'Montserrat', sans-serif;
+}
+#loginBox {
+    color: #015C5C;
+}
+#loginBox button {
+    background-color: #FFFFFF;
+}
