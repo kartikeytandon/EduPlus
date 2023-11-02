@@ -1,0 +1,7 @@
+nav {
+    background-color: #015C5C;
+    height: 100vh;
+}
+.navIcons {
+    filter: invert(100%);
+}
